@@ -60,8 +60,7 @@ Users can interact with the KipuBankV2 contract in the following ways:
   Provides security and real pricing, but requires oracle availability and incurs oracle-based gas usage.
 
 - **Admin-only configurations:**  
-  Protects global settings but adds centralization. In the future, governance could replace admin control.
-
+  Protects global settings but adds centralization.
 - **Nested mappings instead of struct arrays:**  
   Improves performance for lookups per user & asset but makes iteration more complex.
 
